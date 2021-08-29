@@ -1,0 +1,231 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Заказы
+</name>
+</assembly>
+<members>
+<member name="T:Заказы.My.Resources.Resources">
+<summary>
+  Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+</summary>
+</member>
+<member name="P:Заказы.My.Resources.Resources.ResourceManager">
+<summary>
+  Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+</summary>
+</member>
+<member name="P:Заказы.My.Resources.Resources.Culture">
+<summary>
+  Перезаписывает свойство CurrentUICulture текущего потока для всех
+  обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+</summary>
+</member>
+<member name="P:Заказы.My.Resources.Resources.no">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Заказы.My.Resources.Resources.yes">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Заказы.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Заказы.DataSet1.tortDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Заказы.DataSet1.tortRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Заказы.DataSet1.tortRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Заказы.DataSet1TableAdapters.tortTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Заказы.DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Заказы.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Заказы.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Заказы.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Заказы.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Заказы.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Заказы.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Заказы.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Заказы.DataSet1TableAdapters.TableAdapterManager.UpdateAll(Заказы.DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Заказы.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Заказы.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Заказы.DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Заказы.DataSet2.exclusivDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Заказы.DataSet2.exclusivRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Заказы.DataSet2.exclusivRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Заказы.DataSet2TableAdapters.exclusivTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Заказы.DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Заказы.DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Заказы.DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Заказы.DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Заказы.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Заказы.DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Заказы.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Заказы.DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Заказы.DataSet2TableAdapters.TableAdapterManager.UpdateAll(Заказы.DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Заказы.DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Заказы.DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Заказы.DataSetObtyazhka">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Заказы.DataSetObtyazhka.obtyagDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Заказы.DataSetObtyazhka.obtyagRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Заказы.DataSetObtyazhka.obtyagRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Заказы.DataSetObtyazhkaTableAdapters.obtyagTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Заказы.DataSetObtyazhkaTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Заказы.DataSetObtyazhkaTableAdapters.TableAdapterManager.UpdateUpdatedRows(Заказы.DataSetObtyazhka,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Заказы.DataSetObtyazhkaTableAdapters.TableAdapterManager.UpdateInsertedRows(Заказы.DataSetObtyazhka,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Заказы.DataSetObtyazhkaTableAdapters.TableAdapterManager.UpdateDeletedRows(Заказы.DataSetObtyazhka,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Заказы.DataSetObtyazhkaTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Заказы.DataSetObtyazhkaTableAdapters.TableAdapterManager.UpdateAll(Заказы.DataSetObtyazhka)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Заказы.DataSetObtyazhkaTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Заказы.DataSetObtyazhkaTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

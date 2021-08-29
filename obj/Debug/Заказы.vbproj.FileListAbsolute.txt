@@ -1,0 +1,13 @@
+D:\users\user0\VB\Заказы\bin\Debug\Заказы.exe.config
+D:\users\user0\VB\Заказы\bin\Debug\Заказы.exe
+D:\users\user0\VB\Заказы\bin\Debug\Заказы.pdb
+D:\users\user0\VB\Заказы\bin\Debug\Заказы.xml
+D:\users\user0\VB\Заказы\obj\Debug\Заказы.Resources.resources
+D:\users\user0\VB\Заказы\obj\Debug\Заказы.vbproj.GenerateResource.cache
+D:\users\user0\VB\Заказы\obj\Debug\Заказы.exe
+D:\users\user0\VB\Заказы\obj\Debug\Заказы.xml
+D:\users\user0\VB\Заказы\obj\Debug\Заказы.pdb
+D:\users\user0\VB\Заказы\obj\Debug\Заказы.FormZakaz.resources
+D:\users\user0\VB\Заказы\obj\Debug\Заказы.FormCalendar.resources
+D:\users\user0\VB\Заказы\obj\Debug\Заказы.FormSelectTort.resources
+D:\users\user0\VB\Заказы\obj\Debug\Заказы.vbproj.CoreCompileInputs.cache
